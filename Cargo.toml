@@ -1,0 +1,12 @@
+[package]
+name = "mac-screenshots"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ab_glyph = "0.2.32"
+clap = { version = "4.5.53", features = ["derive"] }
+image = "0.25.9"
+imageproc = "0.25.0"
+libblur = { version = "0.21.0", features = ["image"] }
+resvg = "0.45.1"
